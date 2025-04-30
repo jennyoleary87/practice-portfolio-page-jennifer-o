@@ -1,4 +1,3 @@
-/*
 04/30/25
 HTML & CSS - 2 Practice: Portfolio Page
 
@@ -15,22 +14,7 @@ Before coding, students will plan the structure of their portfolio page. The pag
 3. A Skills Table: Displays a list of skills or tools with proficiency levels in a table format.
 4. A Contact Form: Allows visitors to send a message, including fields for the
 visitor's name, email, and message.
-*/
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>My First HTML Page</title>
-</head>
-<body>
-   <h1>Welcome to HTML!</h1>
-<p>This is the starting point for creating static web pages.</p>
-   </body>
-</html>
-
-/*
 Step 2: Create the HTML Structure
 1. Use semantic tags like <header>, <section>, and <footer> to organize the page.
 2. Create a table with appropriate headers (<th>), rows (<tr>), and cells (<td>).
@@ -45,4 +29,22 @@ Once the page is complete, you should:
 1. Test the form to ensure all fields are correctly labeled.
 2. Check the table for proper alignment and formatting.
 3. Review the code to ensure proper use of tags and attributes.
-*/
+
+===================================================================
+
+1. A Header: Contains the name and a brief tagline.
+    name: Jennifers Portfolio
+    header: Welcome to Jennifers Portfolio!
+
+2. An "About Me" Section: Includes a paragraph about themselves.
+    Hello friends! I am a young software development student building programming skills little by little.
+
+3. A Skills Table: Displays a list of skills or tools with proficiency levels in a table format.
+    skill acquired          level (1-5)
+    unit testing            2
+    html tags               3
+    JS functions            3
+    
+
+4. A Contact Form: Allows visitors to send a message, including fields for the visitor's name, email, and message.
+

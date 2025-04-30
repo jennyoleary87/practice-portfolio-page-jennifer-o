@@ -1,0 +1,49 @@
+Lesson: HTML and CSS - 2 - An Introduction to HTML
+EXAMPLE putting it all together:
+
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>My Portfolio</title>
+ </head>
+ <body>
+     <header>
+         <h1>Welcome to My Portfolio</h1>
+         <nav>
+             <a href="#about">About</a>
+             <a href="#projects">Projects</a>
+             <a href="#contact">Contact</a>
+         </nav>
+         </header>
+     <main>
+        <section id="about">
+             <h2>About Me</h2>
+             <p>Hi, I'm a web developer with a passion for creating beautiful, functional websites.</p
+        </section>
+        <section id="projects">
+             <h2>My Projects</h2>
+             <article>
+                 <h3>Project 1: E-commerce Site</h3>
+                 <p>A responsive online store built with HTML, CSS, and JavaScript.</p>
+             </article>
+            </section>
+        <section>
+            <a href="https://example.com">Visit Example</a>
+            <img src="image.jpg" alt="A description of the image">
+            <p style="color: blue; font-size: 16px;">This text is styled inline.</p>
+            <a href="https://example.com" title="Click to visit Example">Visit Example</a>
+            <a href="https://example.com" target="_blank">Open in a new tab</a>
+        
+<form action="/submit" method="POST">
+   <label for="name">Name:</label>
+   <input type="text" id="name" name="name">
+   <button type="submit">Submit</button>
+</form>
+
+        </section>
+         <footer>
+             <p>&copy; 2025 My Portfolio</p>
+         </footer>
+     </main>
+ </body>
+</html>
