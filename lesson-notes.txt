@@ -47,3 +47,30 @@ EXAMPLE putting it all together:
      </main>
  </body>
 </html>
+
+===================================================================
+Lesson: HTML and CSS - 3 - Profile Page for Portfolio
+
+selector {
+ property: value;
+ property: value;
+}
+
+ELEMENT SELECTOR
+p {
+ color: pink;
+}
+
+CLASS SELECTOR - add a . before
+.pink-paragraph {
+ color: pink;
+}
+
+ID SELECTOR - add a # before
+<p id="pinkParagraph">content</p> // HTML
+#pinkParagraph {
+ color: pink;
+}
+
+*add  <link rel="stylesheet" type="text/css" href="styles.css"> to link css to html
+
